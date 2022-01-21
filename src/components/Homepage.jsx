@@ -26,26 +26,26 @@ console.log(data);
       
       <Row >
         <Col span={12} className="counter">
-          <h2>Global Crypto Stats:</h2>
-          <CountUp start={0} end={globalStats.total} delay={0} duration={3} separator=","></CountUp>
+          <h2>Total Cryptocurrenciess:</h2>
+          <CountUp start={0} end={globalStats.total} delay={0} duration={2} separator=","></CountUp>
         </Col>
         <Col span={12} className="counter">
         <h2 >Total Exchanges:</h2>
-          <CountUp start={0} end={globalStats.totalExchanges} delay={0} duration={3}  separator=","></CountUp>
+          <CountUp start={0} end={globalStats.totalExchanges} delay={0} duration={2}  separator=","></CountUp>
           
         </Col>
         <Col span={12} className="counter">
           <h2 >Total Market Cap:</h2>
-          <CountUp start={0} end={globalStats.totalMarketCap} delay={0} duration={3}  separator=","></CountUp>
+          <CountUp start={0} end={globalStats.totalMarketCap} delay={0} duration={2}  separator=","></CountUp><span> $</span>
           
         </Col>
         <Col span={12} className="counter">
         <h2 >Total 24h Volume:</h2>
-          <CountUp start={0} end={globalStats.total24hVolume} delay={0} duration={3}  separator=","></CountUp>
+          <CountUp start={0} end={globalStats.total24hVolume} delay={0} duration={2}  separator=","></CountUp><span> $</span>
         </Col>
         <Col span={12} className="counter">
         <h2 >Total Markets:</h2>
-          <CountUp start={0} end={globalStats.totalMarkets} delay={0} duration={3}  separator=","></CountUp>
+          <CountUp start={0} end={globalStats.totalMarkets} delay={0} duration={2}  separator=","></CountUp>
         </Col>
       </Row>
     </div>

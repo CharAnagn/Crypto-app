@@ -6,15 +6,10 @@
   color: white;
 }
 
-
-
 .main {
   flex: 0.8;
   width: 100%;
-  
 }
-
-
 
 .crypto-stats {
   width: 100%;
@@ -69,42 +64,35 @@
   align-items: center;
 }
 
-
-.routes .search-crypto{
+.routes .search-crypto {
   margin: auto;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-.select-news{
+.select-news {
   margin: auto;
   padding-top: 20px;
 }
-
-
-
-
 
 @media screen and (max-width: 800px) {
   .app {
     flex-direction: column;
     overflow: hidden;
   }
-  .crypto-stats .heading{
+  .crypto-stats .heading {
     font-size: 1.4rem;
     margin-bottom: 20px;
     padding-top: 20px;
   }
 
   .crypto-stats .counter span {
-    
     font-size: 1.3rem;
   }
 
   .main {
     flex: 1;
     margin-left: 0px;
-    
   }
 
   .menu-control-container {
@@ -116,6 +104,22 @@
   }
   .show-more {
     font-size: 1.3rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .crypto-stats .heading {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  .crypto-stats .counter span {
+    font-size: 1.2rem;
+  }
+  .crypto-stats .counter h2 {
+    font-size: 1rem;
+  }
+  .app ul li{
+    font-size: 0.8rem;
   }
 }
 
@@ -154,28 +158,26 @@
 
 /* CRYPTO CARDS SECTION*/
 
-.crypto-card-container .crypto-card .ant-card{
-  background: rgba(84,87,138,1);
+.crypto-card-container .crypto-card .ant-card {
+  background: rgba(84, 87, 138, 1);
   color: white;
   font-size: 1rem;
 }
-.crypto-card-container .ant-card-head-title{
+.crypto-card-container .ant-card-head-title {
   color: gold;
 }
 
-.crypto-card-container .ant-card-body span{
-  color:rgba(28, 222, 244, 255) ;
+.crypto-card-container .ant-card-body span {
+  color: rgba(28, 222, 244, 255);
 }
 
-.crypto-card-container .crypto-card a .ant-card:hover{
-  border: 1px solid rgba(84,87,138,1);
+.crypto-card-container .crypto-card a .ant-card:hover {
+  border: 1px solid rgba(84, 87, 138, 1);
 }
-
 
 /*COIN DETAILS*/
-.coin-detail-container{
-  background:rgba(84,87,138,1);
-  
+.coin-detail-container {
+  background: rgba(84, 87, 138, 1);
 }
 
 .coin-heading-container {
@@ -187,7 +189,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 10px;
-  
 }
 
 .coin-heading-container .coin-name {
@@ -213,7 +214,6 @@
   font-weight: 700;
   font-size: 1.2rem;
   margin-top: 20px;
-  
 }
 
 .coin-details-heading {
@@ -235,24 +235,21 @@
   display: flex;
   gap: 10px;
   font-size: 1rem;
-  
 }
 
 .stats {
   font-weight: 500;
- 
 }
-.coin-stats .coin-stats-name span{
+.coin-stats .coin-stats-name span {
   color: white;
 }
-.coin-stats span{
+.coin-stats span {
   color: rgba(28, 222, 244, 255);
 }
 
 .coin-value-statistics-heading p {
   font-size: 1rem;
   opacity: 0.9;
-  
 }
 
 .coin-desc-link {
@@ -265,25 +262,22 @@
 
 .coin-desc-link h2 {
   font-weight: 700;
-  
 }
 
 .coin-desc-link p {
   font-size: 1rem;
   opacity: 0.9;
-
 }
-.coin-links .coin-link h5{
+.coin-links .coin-link h5 {
   color: white;
 }
-
 
 .coin-desc-link a {
   color: rgb(114, 193, 224);
 }
 
 .coin-desc-link h3 {
-  font-weight: 700;
+  font-weight: 00;
   color: rgba(28, 222, 244, 255);
 }
 
@@ -294,7 +288,6 @@
 .coin-links {
   padding: 0px 20px;
   flex: 0.5;
-  
 }
 
 .coin-link {
@@ -311,7 +304,6 @@
 }
 
 .coin-link a {
- 
   font-weight: 700;
   font-size: 1rem;
 }
@@ -331,6 +323,22 @@
   .stats-container h2 {
     margin-top: 0px;
   }
+  .coin-heading-container p {
+    margin-left: 10px;
+  }
+  .coin-details-heading
+   {
+    margin-left: 10px;
+  }
+  .coin-value-statistics-heading p{
+    margin-left: 10px;
+  }
+  .coin-desc-link p {
+    margin-left: 10px;
+  }
+  .coin-desc-link h3 {
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -347,13 +355,12 @@
   }
 }
 
-
 /* NEWS SECTION */
-.ant-select-selection-item{
-  color:black;
+.ant-select-selection-item {
+  color: black;
 }
-.ant-select-dropdown .ant-select-item-option-content{
-  color:black;
+.ant-select-dropdown .ant-select-item-option-content {
+  color: black;
 }
 
 .select-news {
@@ -361,7 +368,6 @@
 }
 .news-card {
   min-height: 300px !important;
-  
 }
 .news-image-container {
   display: flex !important;
@@ -435,7 +441,7 @@
 }
 
 .footer {
-  background-color: rgba(2, 6, 25,0.9);
+  background-color: rgba(2, 6, 25, 0.9);
   display: flex;
   flex-direction: column;
   padding: 20px;
